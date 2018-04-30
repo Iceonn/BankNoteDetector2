@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExamActivity"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Effectively detect counterfeits"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="	1.The bearer of the banknote is supposed to compare the suspected banknote with one of the same denomination from a different source.
+    \n\n\n
+	2. Do not compare with the reproductions in a brochure (or a print out from the internet), which always differ from the original.
+    \n\n\n
+	3. Unfold a received banknote and look at the front and the back.
+    \n\n\n
+	4. Check the banknote for the security features (refer to write-up on the Features of the Ghanaian Banknote)
+    \n\n\n
+	5. Pay attention to soiled or repaired bills
+    \n\n\n
+	6. The Bank of Ghana can assist you in verifying the validity of a suspected note.
+    \n\n\n
+	7. Notify the police as soon as possible if you think that a banknote has been counterfeited
+    \n\n\n
+"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
